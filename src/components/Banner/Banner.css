@@ -1,0 +1,47 @@
+.Banner {
+    background: url('https://a0.muscache.com/im/pictures/a2704500-b282-4411-a2fb-d7f80c4c72a8.jpg?im_w=2560');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+
+.Banner__info {
+    background: black;
+    color: white ; 
+    width: 300px;
+    padding-top:25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+
+
+}
+
+.Banner__info > button {
+    background: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.Banner__info > button:hover {
+    background: white;
+    color:#ff7779;
+
+}
+
+
+.Banner__search {
+    display: flex;
+    flex-direction: column;
+}
+.Banner__search .Banner__searchButton {
+    background-color: white !important;
+    color: #ff7779 !important;;
+    font-weight: 900 !important;;
+    text-transform: inherit !important;;
+    
+}
